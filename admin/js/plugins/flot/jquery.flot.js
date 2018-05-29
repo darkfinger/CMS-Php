@@ -763,7 +763,7 @@
             ctx = canvas.getContext("2d");
             octx = overlay.getContext("2d");
 
-            // we include the canvas in the event holder too, because IE 7
+            // we includes the canvas in the event holder too, because IE 7
             // sometimes has trouble with the stacking order
             eventHolder = $([overlay, canvas]);
 
